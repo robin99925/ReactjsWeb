@@ -1,0 +1,52 @@
+body{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.navbar{
+    background-color: #ffffff !important;
+}
+.nav-link:hover{
+    border-bottom: 1px solid #000000;
+}
+.active_class{
+    font-weight: bold;
+    border-bottom: 1px solid #000000;
+}
+
+.logo{
+    color: aqua;
+}
+.brand{
+    color: rgb(24, 175, 175);
+}
+footer {
+    margin-top: auto;
+    padding: 0;
+    margin-bottom: 0px;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    background-color: #0000000a;
+}
+#header .animated{
+    animation: up-down 2sec ease-in-out infinite alternate-reverse both;
+}
+@-webkit-keyframes up-down {
+    0%{
+        transform:translateY(10px);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+}
+@keyframes up-down {
+    0%{
+        transform:translateY(10px);
+    }
+    100%{
+        transform: translateX(-10px);
+    }
+
+}
