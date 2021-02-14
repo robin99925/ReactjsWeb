@@ -1,0 +1,2 @@
+body{display:flex;flex-direction:column;height:100vh}.navbar{background-color:#fff!important}.active_class,.nav-link:hover{border-bottom:1px solid #000}.active_class{font-weight:700}.logo{color:#0ff}.brand{color:#18afaf}footer{margin-top:auto;padding:0;margin-bottom:0}footer p{display:flex;justify-content:center;background-color:rgba(0,0,0,.0392156862745098)}#header .animated{animation:up-down 2sec ease-in-out infinite alternate-reverse both}@keyframes up-down{0%{transform:translateY(10px)}to{transform:translateX(-10px)}}
+/*# sourceMappingURL=main.064303ec.chunk.css.map */
